@@ -23,9 +23,6 @@ def find_valid_calls(planeteer_calls)
     valid_calls.find do |calls|
       if string = calls
         string
-    else
-      valid_calls+=1
-    else nil
     end
   end
 end
